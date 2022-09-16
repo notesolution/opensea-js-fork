@@ -5111,10 +5111,10 @@
   dependencies:
     "http-https" "^1.0.0"
 
-"oc-seaport-js@^1.0.9":
-  "integrity" "sha512-ldDVI9hfRN2W7MFsHcgYrxBzdSCsrpzl3CQLQZnDOzrqOpvUblaM3jwahpKztqKYoCOhAUbr4stcuEloGbpQ+g=="
-  "resolved" "https://registry.npmjs.org/oc-seaport-js/-/oc-seaport-js-1.0.9.tgz"
-  "version" "1.0.9"
+"oc-seaport-js@^1.0.10":
+  "integrity" "sha512-lgEYVFTVrw9IDZT8ln2GHzBf8Zsn6g5r8NUgKV0FXgkwuB5rxYg9TT2ucvz5TM3mgNFmsc/C3yjwvmFuRd2kYw=="
+  "resolved" "https://registry.npmjs.org/oc-seaport-js/-/oc-seaport-js-1.0.10.tgz"
+  "version" "1.0.10"
   dependencies:
     "@0xsequence/multicall" "^0.39.0"
     "ethers" "^5.6.7"
