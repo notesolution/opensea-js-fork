@@ -1413,7 +1413,7 @@ bn.js@4.11.7:
   resolved "https://registry.npmjs.org/bn.js/-/bn.js-4.11.7.tgz"
   integrity sha512-LxFiV5mefv0ley0SzqkOPR1bC4EbpPx8LkOz5vMe/Yi15t5hzwgO/G+tc7wOtL4PZTYjwHu8JnEiSLumuSjSfA==
 
-bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.10.0, bn.js@^4.11.0, bn.js@^4.11.6, bn.js@^4.11.7, bn.js@^4.11.8, bn.js@^4.11.9:
+bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.10.0, bn.js@^4.11.0, bn.js@^4.11.6, bn.js@^4.11.7, bn.js@^4.11.8, bn.js@^4.11.9, bn.js@^4.8.0:
   version "4.12.0"
   resolved "https://registry.npmjs.org/bn.js/-/bn.js-4.12.0.tgz"
   integrity sha512-c98Bf3tPniI+scsdk237ku1Dc3ujXQTSgyiPUDEOe7tRkhrqridvh8klBv0HCEso1OLOYcHuCv/cS6DNxKH+ZA==
@@ -2780,6 +2780,17 @@ ethereumjs-tx@^2.1.1, ethereumjs-tx@^2.1.2:
   dependencies:
     ethereumjs-common "^1.5.0"
     ethereumjs-util "^6.0.0"
+
+ethereumjs-util@^4.3.0:
+  version "4.5.1"
+  resolved "https://registry.yarnpkg.com/ethereumjs-util/-/ethereumjs-util-4.5.1.tgz#f4bf9b3b515a484e3cc8781d61d9d980f7c83bd0"
+  integrity sha512-WrckOZ7uBnei4+AKimpuF1B3Fv25OmoRgmYCpGsP7u8PFxXAmAgiJSYT2kRWnt6fVIlKaQlZvuwXp7PIrmn3/w==
+  dependencies:
+    bn.js "^4.8.0"
+    create-hash "^1.1.2"
+    elliptic "^6.5.2"
+    ethereum-cryptography "^0.1.3"
+    rlp "^2.0.0"
 
 ethereumjs-util@^5.0.0, ethereumjs-util@^5.1.3, ethereumjs-util@^5.2.0:
   version "5.2.1"
@@ -4903,10 +4914,10 @@ oboe@2.1.5:
   dependencies:
     http-https "^1.0.0"
 
-oc-seaport-js@^1.0.12:
-  version "1.0.12"
-  resolved "https://registry.npmjs.org/oc-seaport-js/-/oc-seaport-js-1.0.12.tgz"
-  integrity sha512-7kh0CvJAoSdL4cbJcjMuHg9JSHFh0lTNgWPHUZgw+O3zU6NtWY8JVaM5//sOr7XT9xE70w6B07fTBD/0J/0y9A==
+oc-seaport-js@^1.0.13:
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/oc-seaport-js/-/oc-seaport-js-1.0.13.tgz#c170450e123cb5d72bc78d514ab9d1b510b450cc"
+  integrity sha512-Htu/eeEYMm3A6O/F0dfKAOv8p3N0XEEtxQ8NTyOEsG0vFaUT15W3ygZ1rYoUXu4jP+eI1swlt4MYaa1v7yJJWA==
   dependencies:
     "@0xsequence/multicall" "^0.39.0"
     ethers "^5.6.7"
