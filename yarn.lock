@@ -4914,10 +4914,10 @@ oboe@2.1.5:
   dependencies:
     http-https "^1.0.0"
 
-oc-seaport-js@^1.0.17:
-  version "1.0.17"
-  resolved "https://registry.yarnpkg.com/oc-seaport-js/-/oc-seaport-js-1.0.17.tgz#ea3d371265755878f75e850e019db9b908a2b585"
-  integrity sha512-nNM0YLoCTTugc9yEsRItZbQ0JzndrKQPkydtC7K5rMi4Df99yFjoHn2/UuM/XIVpxGErjR26Z2AJMMuUukEHyQ==
+oc-seaport-js@^1.0.19:
+  version "1.0.19"
+  resolved "https://registry.yarnpkg.com/oc-seaport-js/-/oc-seaport-js-1.0.19.tgz#5445221d5a59119f74ec15be30c5cfc4dc7ad8e8"
+  integrity sha512-9x4uDbetelDsTm4kVXAOZGpF37LwvL7hdofNJkIFOLemkTGPiZPqGEFntqLYPJVt4NzohKE4iTJjcvY6Nzo12w==
   dependencies:
     "@0xsequence/multicall" "^0.39.0"
     ethers "^5.6.7"
